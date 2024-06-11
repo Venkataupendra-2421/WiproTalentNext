@@ -1,0 +1,15 @@
+import java.util.*;
+class sod{
+public static void main(String...args){
+ try{
+ int a,sum,j;
+ Scanner s=new Scanner(System.in);
+ System.out.println("enter the number");
+ a=s.nextInt();
+ for(sum=0;a!=0;a=a/10){
+  sum=sum+a%10;}
+ System.out.println("Sum of digits is:"+sum);
+ }
+ catch (Exception e){
+ System.out.println("Invalid");}
+ }}
